@@ -1,0 +1,11 @@
+// Bootstrap Variables
+$primary: #ffc107;
+$seconday: #c4c4c4;
+
+// Bootstrap Import
+@import '~bootstrap/scss/bootstrap';
+
+// Custom
+body {
+	background-color: #1f1f1f;
+}

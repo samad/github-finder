@@ -1,18 +1,15 @@
 import React, { Component } from 'react';
-import Contact from './components/Contact';
-import Header from './components/Header';
+import Navbar from './components/layout/Navbar';
+import Users from './components/users/Users';
 import './App.scss';
 
 class App extends Component {
 	render() {
+		// prettier-ignore
 		return (
 			<div className='App'>
-				<Header />
-				<div className='container'>
-					<Contact />
-					<Contact name='James Kirk' email='jamestkirk@gmail.com' phone='222-222-2222' />
-					<Contact name='Robert Downey' email='contact@robertdowney.com' phone='011-222-3333' />
-				</div>
+				<Navbar />
+				<Users />
 			</div>
 		);
 	}

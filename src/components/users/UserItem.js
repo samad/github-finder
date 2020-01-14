@@ -1,33 +1,28 @@
-import React, { Component } from 'react';
-import propTypes from 'prop-types';
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
-class UserItem extends Component {
-	static propTypes = {
-		user: propTypes.object.isRequired,
-	};
-
-	render() {
-		return (
-			<div className='card rounded text-center my-2' style={{ width: '32%' }}>
-				<img
-					src={this.props.user.avatar_url}
-					alt=''
-					className='img-fluid rounded-circle mx-auto mt-3'
-					style={{ width: '60px' }}
-				/>
-				<div className='card-body'>
-					<h5 className='card-title'>{this.props.user.login}</h5>
-					<a
-						href={this.props.user.html_url}
-						target='_blank'
-						rel='noopener noreferrer'
-						className='btn btn-sm btn-primary'>
-						More
-					</a>
-				</div>
+const UserItem = ({ user: { login, avatar_url } }) => {
+	return (
+		<div className='card rounded text-center mt-3 shadow-sm' style={{ width: '24%' }}>
+			<img
+				src={avatar_url}
+				alt=''
+				className='img-fluid rounded-circle mx-auto mt-3'
+				style={{ width: '60px' }}
+			/>
+			<div className='card-body'>
+				<h5 className='card-title'>{login}</h5>
+				<Link to={`/user/${login}`} className='btn btn-sm btn-primary'>
+					More
+				</Link>
 			</div>
-		);
-	}
-}
+		</div>
+	);
+};
+
+UserItem.propTypes = {
+	user: PropTypes.object.isRequired,
+};
 
 export default UserItem;

@@ -1,8 +1,10 @@
-// Bootstrap Variables
-$primary: #ffc107;
-$seconday: #c4c4c4;
+/* Variables */
+@import './css/variables.scss';
 
-// Bootstrap Import
+/* Font Awesome */
+@import '~font-awesome/css/font-awesome.min.css';
+
+/*  Bootstrap Import */
 @import '~bootstrap/scss/bootstrap';
 
-// Custom
+/* Custom */

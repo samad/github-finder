@@ -1,57 +1,25 @@
-import React, { Component } from 'react';
+import React from 'react';
 import UserItem from './UserItem';
+import Spinner from '../layout/Spinner';
+import PropTypes from 'prop-types';
 
-class Users extends Component {
-	state = {
-		users: [
-			{
-				id: '1',
-				login: 'mojombo',
-				avatar_url: 'http://localhost/fireChat/public/img/profile.svg',
-				html_url: 'https://google.com',
-			},
-			{
-				id: '2',
-				login: 'mojombo',
-				avatar_url: 'http://localhost/fireChat/public/img/profile.svg',
-				html_url: 'https://google.com',
-			},
-			{
-				id: '3',
-				login: 'mojombo',
-				avatar_url: 'http://localhost/fireChat/public/img/profile.svg',
-				html_url: 'https://google.com',
-			},
-			{
-				id: '4',
-				login: 'mojombo',
-				avatar_url: 'http://localhost/fireChat/public/img/profile.svg',
-				html_url: 'https://google.com',
-			},
-			{
-				id: '5',
-				login: 'mojombo',
-				avatar_url: 'http://localhost/fireChat/public/img/profile.svg',
-				html_url: 'https://google.com',
-			},
-			{
-				id: '6',
-				login: 'mojombo',
-				avatar_url: 'http://localhost/fireChat/public/img/profile.svg',
-				html_url: 'https://google.com',
-			},
-		],
-	};
-
-	render() {
+const Users = ({ users, loading }) => {
+	if (loading) {
+		return <Spinner />;
+	} else {
 		return (
 			<div className='d-flex flex-wrap justify-content-around'>
-				{this.state.users.map(user => (
+				{users.map(user => (
 					<UserItem key={user.id} user={user} />
 				))}
 			</div>
 		);
 	}
-}
+};
+
+Users.propTypes = {
+	users: PropTypes.array.isRequired,
+	loading: PropTypes.bool.isRequired,
+};
 
 export default Users;

@@ -17,5 +17,7 @@
 		"sourceType": "module"
 	},
 	"plugins": ["react"],
-	"rules": {}
+	"rules": {
+		"no-unused-vars": ["off", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }]
+	}
 }

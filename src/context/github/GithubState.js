@@ -1,4 +1,4 @@
-import React, { useReducer } from 'react';
+import React, { useReducer, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import GithubContext from './githubContext';
 import GithubReducer from './githubReducer';
@@ -13,6 +13,23 @@ const GithubState = (props) => {
 	};
 
 	const [state, dispatch] = useReducer(GithubReducer, initialState);
+
+	useEffect(() => {
+		setLoading();
+
+		try {
+			fetch('https://api.github.com/users')
+				.then((res) => res.json())
+				.then((data) => {
+					dispatch({
+						type: SEARCH_USERS,
+						payload: data,
+					});
+				});
+		} catch (err) {
+			console.log(err);
+		}
+	}, []);
 
 	// Search Users
 

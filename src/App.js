@@ -11,24 +11,6 @@ import AlertState from './context/alert/AlertState';
 import GithubState from './context/github/GithubState';
 
 const App = () => {
-	/* useEffect(() => {
-		(async function () {
-			setLoading(true);
-
-			try {
-				await fetch('https://api.github.com/users')
-					.then((res) => res.json())
-					.then((data) => {
-						setUsers(data);
-					});
-			} catch (err) {
-				console.log(err);
-			}
-
-			setLoading(false);
-		})();
-	}, []); */
-
 	return (
 		<GithubState>
 			<AlertState>

@@ -8,3 +8,30 @@
 @import '~bootstrap/scss/bootstrap';
 
 /* Custom */
+
+.user-item {
+	width: 24%;
+	overflow: hidden;
+
+	.card-title {
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.user-item {
+		width: 50%;
+	}
+
+	.more {
+		.rounded-circle {
+			margin-top: 20px;
+			width: 80%;
+		}
+
+		.card-body .btn {
+			margin: 10px;
+		}
+	}
+}

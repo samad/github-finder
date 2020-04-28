@@ -34,7 +34,7 @@ const User = ({ match }) => {
 	} else {
 		return (
 			<Fragment>
-				<div className='jumbotron mx-auto container'>
+				<div className='jumbotron mx-auto container more'>
 					<Link to='/' className='btn btn-primary'>
 						<i className='fa fa-arrow-left' aria-hidden='true'></i> Back to Search
 					</Link>

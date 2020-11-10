@@ -27,6 +27,8 @@ const User = ({ match }) => {
 	useEffect(() => {
 		githubContext.getUser(match.params.login);
 		githubContext.getUserRepos(match.params.login);
+
+		// eslint-disable-next-line
 	}, []);
 
 	if (loading) {
@@ -36,7 +38,8 @@ const User = ({ match }) => {
 			<Fragment>
 				<div className='jumbotron mx-auto container more'>
 					<Link to='/' className='btn btn-primary'>
-						<i className='fa fa-arrow-left' aria-hidden='true'></i> Back to Search
+						<i className='fa fa-arrow-left' aria-hidden='true'></i> Back to
+						Search
 					</Link>
 					<div className='text-center'>
 						<p>
@@ -84,7 +87,8 @@ const User = ({ match }) => {
 							<li className='list-group-item'>
 								{login && (
 									<Fragment>
-										<strong>Company:</strong> {company ? company : 'Not Mentioned'}
+										<strong>Company:</strong>{' '}
+										{company ? company : 'Not Mentioned'}
 									</Fragment>
 								)}
 							</li>

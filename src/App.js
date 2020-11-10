@@ -14,14 +14,18 @@ const App = () => {
 	return (
 		<GithubState>
 			<AlertState>
-				<Router>
+				<Router basename='/github_finder/'>
 					<div className='App'>
 						<Navbar />
 						<Alert />
 						<Switch>
 							<Route exact path='/' component={Home} />
 							<Route exact path='/about' component={About} />
-							<Route exact path='/user/:login' render={(props) => <User {...props} />} />
+							<Route
+								exact
+								path='/user/:login'
+								render={(props) => <User {...props} />}
+							/>
 							<Route component={NotFound} />
 						</Switch>
 					</div>

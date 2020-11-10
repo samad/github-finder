@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/github_finder/static/css/main.df902c58.chunk.css",
+    "main.js": "/github_finder/static/js/main.3c33ced3.chunk.js",
+    "main.js.map": "/github_finder/static/js/main.3c33ced3.chunk.js.map",
+    "runtime-main.js": "/github_finder/static/js/runtime-main.78cecee8.js",
+    "runtime-main.js.map": "/github_finder/static/js/runtime-main.78cecee8.js.map",
+    "static/css/2.b837e323.chunk.css": "/github_finder/static/css/2.b837e323.chunk.css",
+    "static/js/2.0babff4e.chunk.js": "/github_finder/static/js/2.0babff4e.chunk.js",
+    "static/js/2.0babff4e.chunk.js.map": "/github_finder/static/js/2.0babff4e.chunk.js.map",
+    "index.html": "/github_finder/index.html",
+    "precache-manifest.5d5f7a01498b32e2ec8bb85b5f9a58da.js": "/github_finder/precache-manifest.5d5f7a01498b32e2ec8bb85b5f9a58da.js",
+    "service-worker.js": "/github_finder/service-worker.js",
+    "static/css/2.b837e323.chunk.css.map": "/github_finder/static/css/2.b837e323.chunk.css.map",
+    "static/css/main.df902c58.chunk.css.map": "/github_finder/static/css/main.df902c58.chunk.css.map",
+    "static/js/2.0babff4e.chunk.js.LICENSE.txt": "/github_finder/static/js/2.0babff4e.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/github_finder/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78cecee8.js",
+    "static/css/2.b837e323.chunk.css",
+    "static/js/2.0babff4e.chunk.js",
+    "static/css/main.df902c58.chunk.css",
+    "static/js/main.3c33ced3.chunk.js"
+  ]
+}

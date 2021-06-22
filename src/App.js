@@ -14,7 +14,7 @@ const App = () => {
 	return (
 		<GithubState>
 			<AlertState>
-				<Router basename='/github_finder/'>
+				<Router basename='/github-finder/'>
 					<div className='App'>
 						<Navbar />
 						<Alert />

@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/github_finder/static/css/main.df902c58.chunk.css",
-    "main.js": "/github_finder/static/js/main.76384b9d.chunk.js",
-    "main.js.map": "/github_finder/static/js/main.76384b9d.chunk.js.map",
-    "runtime-main.js": "/github_finder/static/js/runtime-main.78cecee8.js",
-    "runtime-main.js.map": "/github_finder/static/js/runtime-main.78cecee8.js.map",
-    "static/css/2.b837e323.chunk.css": "/github_finder/static/css/2.b837e323.chunk.css",
-    "static/js/2.0babff4e.chunk.js": "/github_finder/static/js/2.0babff4e.chunk.js",
-    "static/js/2.0babff4e.chunk.js.map": "/github_finder/static/js/2.0babff4e.chunk.js.map",
-    "index.html": "/github_finder/index.html",
-    "precache-manifest.55adcf4c6f1a9bdfd6b6a0b2fc6f3778.js": "/github_finder/precache-manifest.55adcf4c6f1a9bdfd6b6a0b2fc6f3778.js",
-    "service-worker.js": "/github_finder/service-worker.js",
-    "static/css/2.b837e323.chunk.css.map": "/github_finder/static/css/2.b837e323.chunk.css.map",
-    "static/css/main.df902c58.chunk.css.map": "/github_finder/static/css/main.df902c58.chunk.css.map",
-    "static/js/2.0babff4e.chunk.js.LICENSE.txt": "/github_finder/static/js/2.0babff4e.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/github_finder/static/media/fontawesome-webfont.fee66e71.woff"
+    "main.css": "/github-finder/static/css/main.df902c58.chunk.css",
+    "main.js": "/github-finder/static/js/main.6ff376a7.chunk.js",
+    "main.js.map": "/github-finder/static/js/main.6ff376a7.chunk.js.map",
+    "runtime-main.js": "/github-finder/static/js/runtime-main.c7dda347.js",
+    "runtime-main.js.map": "/github-finder/static/js/runtime-main.c7dda347.js.map",
+    "static/css/2.ea5d2c1d.chunk.css": "/github-finder/static/css/2.ea5d2c1d.chunk.css",
+    "static/js/2.0babff4e.chunk.js": "/github-finder/static/js/2.0babff4e.chunk.js",
+    "static/js/2.0babff4e.chunk.js.map": "/github-finder/static/js/2.0babff4e.chunk.js.map",
+    "index.html": "/github-finder/index.html",
+    "precache-manifest.19a891180c9ff015df9dad6ac6bae517.js": "/github-finder/precache-manifest.19a891180c9ff015df9dad6ac6bae517.js",
+    "service-worker.js": "/github-finder/service-worker.js",
+    "static/css/2.ea5d2c1d.chunk.css.map": "/github-finder/static/css/2.ea5d2c1d.chunk.css.map",
+    "static/css/main.df902c58.chunk.css.map": "/github-finder/static/css/main.df902c58.chunk.css.map",
+    "static/js/2.0babff4e.chunk.js.LICENSE.txt": "/github-finder/static/js/2.0babff4e.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/github-finder/static/media/fontawesome-webfont.fee66e71.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.78cecee8.js",
-    "static/css/2.b837e323.chunk.css",
+    "static/js/runtime-main.c7dda347.js",
+    "static/css/2.ea5d2c1d.chunk.css",
     "static/js/2.0babff4e.chunk.js",
     "static/css/main.df902c58.chunk.css",
-    "static/js/main.76384b9d.chunk.js"
+    "static/js/main.6ff376a7.chunk.js"
   ]
 }
